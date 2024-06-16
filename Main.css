@@ -22,7 +22,7 @@ html.lenis body {
 /* Lenis */
 
 @font-face {
-    font-family: Sans;
+    font-family: General_Sans;
     src: url(Fonts/General_Sans.ttf);
 }
 
@@ -36,5 +36,5 @@ html.lenis body {
     --Blue: #2c1af7;
 
     /* Fonts */
-    --Sans: Sans, Arial, Helvetica, sans-serif;
+    --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
 }
