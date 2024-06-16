@@ -57,10 +57,10 @@ main {
 
 .orange_btn {
     background-color: var(--Orange);
+    border: solid 0.01em var(--Orange);
     color: var(--White);
     transition-property: background-color, color;
     transition-duration: var(--Transition_Time);
-    border: solid 0.01em var(--Orange);
 }
 
 .orange_btn:hover {
