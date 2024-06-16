@@ -186,3 +186,9 @@ nav {
         display: flex;
     }
 }
+
+@media (width < 500px) {
+    .nav_logo svg {
+        height: 1.2em;
+    }
+}
