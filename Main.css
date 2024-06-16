@@ -167,7 +167,8 @@ nav {
 
 .hamburger_line {
     width: 2em;
-    height: 0.1em;
+    height: 0.15em;
+    border-radius: 9em;
     background-color: var(--Black);
 }
 
