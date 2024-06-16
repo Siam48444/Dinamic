@@ -48,7 +48,7 @@ body.html {
     --Orange: #f76a1a;
     --Black: #111111;
     --White: #f6f9fc;
-    --Gray: #9a9a9a;
+    --Gray: #a1a1a1;
     --Light_Gray: #e0e0e0;
     --Blue: #2c1af7;
 
@@ -107,11 +107,6 @@ nav {
     color: var(--Orange);
 }
 
-.nav_btn {
-    padding: 0.6em 1em;
-    border-radius: 9em;
-}
-
 .cart_div {
     display: flex;
     align-items: center;
@@ -125,6 +120,13 @@ nav {
     height: 1.5em;
 }
 
+.nav_btn {
+    padding: 0.6em 1em;
+    border-radius: 9em;
+    transition-property: background-color, color;
+    transition-duration: var(--Transition_Time);
+}
+
 .log_in {
     background-color: var(--Light_Gray);
     font-family: var(--General_Sans);
@@ -132,9 +134,19 @@ nav {
     color: var(--Black);
 }
 
+.log_in:hover {
+    background-color: var(--Gray);
+    color: var(--White);
+}
+
 .sign_up {
     background-color: var(--Black);
     font-family: var(--General_Sans);
     font-weight: 500;
+    color: var(--White);
+}
+
+.sign_up:hover {
+    background-color: var(--Orange);
     color: var(--White);
 }
