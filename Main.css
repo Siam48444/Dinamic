@@ -21,6 +21,23 @@ html.lenis body {
 }
 /* Lenis */
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body.html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: General_Sans;
     src: url(Fonts/General_Sans.ttf);
@@ -39,3 +56,6 @@ html.lenis body {
     --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
 }
 
+nav {
+    background-color: coral;
+}
