@@ -20,3 +20,13 @@ html.lenis body {
     pointer-events: none;
 }
 /* Lenis */
+
+:root {
+    /* Colors */
+    --Orange: #f76a1a;
+    --Black: #111111;
+    --White: #f6f9fc;
+    --Gray: #9a9a9a;
+    --Light_Gray: #edeef2;
+    --Blue: #2c1af7;
+}
