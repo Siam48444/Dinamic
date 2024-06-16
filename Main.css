@@ -93,3 +93,22 @@ nav {
     font-weight: 500;
     color: var(--Black);
 }
+
+.nav_btn {
+    padding: 0.6em 1em;
+    border-radius: 9em;
+}
+
+.log_in {
+    background-color: var(--Light_Gray);
+    font-family: var(--General_Sans);
+    font-weight: 500;
+    color: var(--Black);
+}
+
+.sign_up {
+    background-color: var(--Black);
+    font-family: var(--General_Sans);
+    font-weight: 500;
+    color: var(--White);
+}
