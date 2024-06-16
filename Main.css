@@ -67,7 +67,7 @@ nav {
 
 .navigation {
     width: var(--Main_Width);
-    padding-block: 1em;
+    padding-block: 0.5em;
     margin: auto;
     display: flex;
     align-items: center;
