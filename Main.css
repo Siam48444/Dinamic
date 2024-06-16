@@ -57,7 +57,7 @@ body.html {
 
     /* Others */
     --Main_Width: min(100em, 100%);
-    --Main_Padding: 1em 2em;
+    --Main_Padding_Inline: 2em;
 }
 
 nav {
@@ -69,7 +69,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--Main_Padding);
+    padding: 1em var(--Main_Padding_Inline);
     border-bottom: solid 0.01em var(--Light_Gray);
 }
 
