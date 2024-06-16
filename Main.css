@@ -156,6 +156,21 @@ nav {
     color: var(--White);
 }
 
+.hamburger_btn {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    padding: 0.3em;
+}
+
+.hamburger_line {
+    width: 2em;
+    height: 0.1em;
+    background-color: var(--Black);
+}
+
 @media (width < 1000px) {
     .navigation {
         padding-block: 1em;
@@ -164,5 +179,9 @@ nav {
     .nav_links_container,
     .nav_btn {
         display: none;
+    }
+
+    .hamburger_btn {
+        display: flex;
     }
 }
