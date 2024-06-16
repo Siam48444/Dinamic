@@ -118,6 +118,11 @@ nav {
 .cart_div svg {
     fill: var(--Black);
     height: 1.5em;
+    transition: rotate var(--Transition_Time);
+}
+
+.cart_div:hover svg {
+    rotate: -10deg;
 }
 
 .nav_btn {
