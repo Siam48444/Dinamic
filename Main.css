@@ -63,6 +63,19 @@ body.html {
     --Transition_Time: 200ms;
 }
 
+.orange_btn {
+    background-color: var(--Orange);
+    border: solid 0.01em var(--Orange);
+    color: var(--White);
+    transition-property: background-color, color;
+    transition-duration: var(--Transition_Time);
+}
+
+.orange_btn:hover {
+    background-color: var(--White);
+    color: var(--Black);
+}
+
 nav {
     width: var(--Max_Width);
     margin: auto;
