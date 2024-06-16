@@ -21,6 +21,11 @@ html.lenis body {
 }
 /* Lenis */
 
+@font-face {
+    font-family: Sans;
+    src: url(Fonts/General_Sans.ttf);
+}
+
 :root {
     /* Colors */
     --Orange: #f76a1a;
@@ -29,4 +34,7 @@ html.lenis body {
     --Gray: #9a9a9a;
     --Light_Gray: #edeef2;
     --Blue: #2c1af7;
+
+    /* Fonts */
+    --Sans: Sans, Arial, Helvetica, sans-serif;
 }
