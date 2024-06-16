@@ -133,15 +133,13 @@ nav {
 }
 
 .log_in {
-    background-color: var(--Light_Gray);
     font-family: var(--General_Sans);
     font-weight: 500;
     color: var(--Black);
 }
 
 .log_in:hover {
-    background-color: var(--Gray);
-    color: var(--White);
+    background-color: var(--Light_Gray);
 }
 
 .sign_up {

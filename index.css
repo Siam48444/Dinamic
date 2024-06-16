@@ -11,12 +11,12 @@ main {
 }
 
 .hero_head {
-    width: 80%;
     margin: auto;
+    width: 80%;
 }
 
 .hero_head h1 {
-    font-family: var(--General_Sans);    
+    font-family: var(--General_Sans);
     font-weight: 600;
     font-size: 4.5em;
     color: var(--Black);
@@ -26,9 +26,23 @@ main {
 }
 
 .hero_head h6 {
-    font-family: var(--General_Sans);    
+    font-family: var(--General_Sans);
     font-weight: 500;
     font-size: 1.1em;
     color: var(--Gray);
     text-align: center;
+}
+
+.hero_btn_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.hero_btn {
+    background-color: coral;
+    padding: 1em 1.5em;
+    border-radius: 9em;
 }
