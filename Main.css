@@ -155,3 +155,14 @@ nav {
     background-color: var(--Orange);
     color: var(--White);
 }
+
+@media (width < 1000px) {
+    .navigation {
+        padding-block: 1em;
+    }
+
+    .nav_links_container,
+    .nav_btn {
+        display: none;
+    }
+}
