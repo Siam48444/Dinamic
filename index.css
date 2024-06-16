@@ -55,7 +55,13 @@ main {
     background-color: var(--Light_Gray);
 }
 
-
+.hero_bottom {
+    background-color: coral;
+    padding-block: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 1em;
+}
 
 @media (width < 1000px) {
     .hero_head h1 {
