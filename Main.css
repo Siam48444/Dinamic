@@ -54,8 +54,24 @@ body.html {
 
     /* Fonts */
     --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
+
+    /* Others */
+    --Main_Width: min(100em, 100%);
+    --Main_Padding: 1em 2em;
 }
 
 nav {
-    background-color: coral;
+    width: var(--Main_Width);
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--Main_Padding);
+}
+
+.nav_logo svg {
+    height: 1.5em;
 }
