@@ -42,7 +42,11 @@ main {
 }
 
 .hero_btn {
-    background-color: coral;
-    padding: 1em 1.5em;
+    padding: 0.8em 1.2em;
+    background-color: var(--Orange);
     border-radius: 9em;
+    font-family: var(--General_Sans);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
 }
