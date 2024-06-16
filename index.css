@@ -55,6 +55,8 @@ main {
     background-color: var(--Light_Gray);
 }
 
+
+
 @media (width < 1000px) {
     .hero_head h1 {
         font-size: 3.5em;
