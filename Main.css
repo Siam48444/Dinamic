@@ -58,6 +58,7 @@ body.html {
     /* Others */
     --Max_Width: min(100em, 100%);
     --Main_Width: 95%;
+    --Transition_Time: 200ms;
 }
 
 nav {
@@ -93,6 +94,11 @@ nav {
     font-size: 1em;
     font-weight: 500;
     color: var(--Black);
+    transition: color var(--Transition_Time);
+}
+
+.nav_link:hover:not(#link_active) {
+    color: var(--Orange);
 }
 
 .nav_btn {
