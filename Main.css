@@ -86,7 +86,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5em;
+}
+
+.nav_links_container {
+    gap: 2em;
+}
+.nav_right {
+    gap: 1em;
 }
 
 .nav_link {
@@ -111,6 +117,12 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 0.1em;
+    cursor: pointer;
+}
+
+.cart_div svg {
+    fill: var(--Black);
+    height: 1.5em;
 }
 
 .log_in {
