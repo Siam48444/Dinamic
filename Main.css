@@ -49,23 +49,24 @@ body.html {
     --Black: #111111;
     --White: #f6f9fc;
     --Gray: #9a9a9a;
-    --Light_Gray: #edeef2;
+    --Light_Gray: #e0e0e0;
     --Blue: #2c1af7;
 
     /* Fonts */
     --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
 
     /* Others */
-    --Main_Width: min(100em, 100%);
+    --Max_Width: min(100em, 100%);
+    --Main_Width: 95%;
 }
 
 nav {
-    width: var(--Main_Width);
+    width: var(--Max_Width);
     margin: auto;
 }
 
 .navigation {
-    width: 95%;
+    width: var(--Main_Width);
     padding-block: 1em;
     margin: auto;
     display: flex;
