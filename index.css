@@ -43,10 +43,27 @@ main {
 
 .hero_btn {
     padding: 0.8em 1.2em;
-    background-color: var(--Orange);
     border-radius: 9em;
     font-family: var(--General_Sans);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.1em;
+    color: var(--Black);
+    transition: background-color var(--Transition_Time);
+}
+
+.hero_btn:hover {
+    background-color: var(--Light_Gray);
+}
+
+.orange_btn {
+    background-color: var(--Orange);
+    color: var(--White);
+    transition-property: background-color, color;
+    transition-duration: var(--Transition_Time);
+    border: solid 0.01em var(--Orange);
+}
+
+.orange_btn:hover {
+    background-color: var(--White);
     color: var(--Black);
 }
