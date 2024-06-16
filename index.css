@@ -1,0 +1,29 @@
+main {
+    margin: auto;
+    position: relative;
+    width: var(--Max_Width);
+}
+
+.hero_container {
+    margin: auto;
+    width: var(--Main_Width);
+    padding-block: 5em;
+}
+
+.hero_head h1 {
+    font-family: var(--General_Sans);    
+    font-weight: 600;
+    font-size: 4em;
+    color: var(--Black);
+    line-height: 1;
+    text-align: center;
+}
+
+.hero_head h1 {
+    font-family: var(--General_Sans);    
+    font-weight: 600;
+    font-size: 4em;
+    color: var(--Black);
+    line-height: 1;
+    text-align: center;
+}
