@@ -76,6 +76,10 @@ main {
     padding-inline: 2em;
 }
 
+.hero_bottom_right {
+    gap: 2em;
+}
+
 .hero_bottom_left_elem,
 .hero_bottom_right {
     padding-block: 2em;
@@ -125,39 +129,21 @@ main {
     color: var(--Black);
 }
 
-.user_profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
-}
-
-.user_image {
-    height: 3em;
-    aspect-ratio: 1 / 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-}
-
-.user_detail h5 {
-    font-family: var(--Inter);
-    font-size: 1em;
-    font-weight: 600;
-    color: var(--Black);
-}
-
-.user_detail p {
-    font-family: var(--Inter);
-    font-size: 0.9em;
-    font-weight: 400;
-    color: var(--Gray);
-}
-
 @media (width < 1000px) {
     .hero_head h1 {
         font-size: 3.5em;
+    }
+
+    .hero_bottom_left_elem h1 {
+        font-size: 2.2em;
+    }
+
+    .hero_bottom_right_svg_container svg {
+        height: 3em;
+    }
+
+    .hero_bottom_right h6 {
+        font-size: 1em;
     }
 }
 

@@ -89,6 +89,36 @@ body.html {
     scale: 0.95;
 }
 
+.user_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.user_image {
+    height: 3em;
+    aspect-ratio: 1 / 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.user_detail h5 {
+    font-family: var(--Inter);
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Black);
+}
+
+.user_detail p {
+    font-family: var(--Inter);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--Gray);
+}
+
 nav {
     width: var(--Max_Width);
     margin: auto;
@@ -200,6 +230,10 @@ nav {
 }
 
 @media (width < 1000px) {
+    .user_image {
+        height: 2.7em;
+    }
+
     .navigation {
         padding-block: 1em;
     }
