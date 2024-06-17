@@ -118,7 +118,7 @@ main {
 
 .hero_bottom_right_svg_container svg {
     height: 3em;
-    fill: var(--Black);
+    fill: var(--Orange);
 }
 
 .hero_bottom_right h6 {

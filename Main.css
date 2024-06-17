@@ -56,7 +56,7 @@ html {
     --Orange: #f76a1a;
     --Black: #111111;
     --White: #f8f8f8;
-    --Gray: #727272;
+    --Gray: #808080;
     --Light_Gray: #eeeeee;
     --Blue: #2c1af7;
 
@@ -67,11 +67,15 @@ html {
     /* Others */
     --Max_Width: min(100em, 100%);
     --Main_Width: 95%;
-    --Transition_Time: 200ms;
+    --Transition_Time: 300ms;
 }
 
 .clicked_scale:active {
     scale: 0.95;
+}
+
+.orange_text {
+    color: var(--Orange);
 }
 
 .orange_btn {
@@ -102,6 +106,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+    border: solid 0.1em var(--Orange);
 }
 
 .user_detail h5 {
