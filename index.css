@@ -174,13 +174,13 @@ main {
     aspect-ratio: 1 / 1;
     display: grid;
     place-items: center;
-    padding: 0.5em;
+    padding: 0.4em;
     background-color: var(--White);
     border-radius: 50%;
 }
 
 .solution_svg_div svg {
-    height: 2em;
+    height: 1.8em;
 }
 
 .solution h4 {
