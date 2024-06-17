@@ -109,7 +109,9 @@ main {
     border-radius: 1em;
 }
 
-.hero_bottom_right {
+.hero_bottom_right_svg_container {
+    background-color: coral;
+    height: 3em;
 }
 
 @media (width < 1000px) {
