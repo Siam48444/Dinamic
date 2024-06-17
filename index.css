@@ -118,7 +118,7 @@ main {
 
 .hero_bottom_right_svg_container svg {
     height: 3em;
-    fill: var(--Orange);
+    fill: var(--Black);
 }
 
 .hero_bottom_right h6 {
@@ -149,6 +149,18 @@ main {
     font-family: var(--General_Sans);
     font-size: 4em;
     font-weight: 600;
+}
+
+.saas_solution_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5em;
+}
+
+.solution {
+    background-color: var(--Light_Gray);
+    padding: 1.5em;
+    border-radius: 1em;
 }
 
 .a {
