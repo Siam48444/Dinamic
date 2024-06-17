@@ -22,10 +22,10 @@ const hamburger_btn = document.querySelector(".hamburger_btn");
 hamburger_btn.addEventListener("click", () => {
     const hamburger_att = hamburger_btn.getAttribute("data-clicked");
 
-    if ((hamburger_att = "false")) {
+    if (hamburger_att == "false") {
         hamburger_btn.setAttribute("data-clicked", "true");
     }
-    if ((hamburger_att = "true")) {
+    if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
     }
 });
