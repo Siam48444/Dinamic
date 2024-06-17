@@ -65,6 +65,7 @@ main {
     grid-template-columns: 1fr 1.5fr 1fr;
     background-color: var(--Light_Gray);
     border-radius: 1em;
+    position: relative;
 }
 
 .hero_bottom_left,
