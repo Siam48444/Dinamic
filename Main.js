@@ -12,3 +12,8 @@ gsap.ticker.add((time) => {
 });
 
 gsap.ticker.lagSmoothing(0);
+
+// GSAP Timeline.
+var tl = gsap.timeline();
+
+// Hamburger button interaction.
