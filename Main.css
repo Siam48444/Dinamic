@@ -225,7 +225,7 @@ nav {
 }
 
 .hamburger_line {
-    width: 2em;
+    width: 1.8em;
     height: 0.15em;
     border-radius: 9em;
     background-color: var(--Black);
@@ -236,26 +236,26 @@ nav {
     width: var(--Max_Width);
     margin: auto;
     z-index: 8;
-    overflow: auto hidden;
+    overflow: hidden auto;
     translate: 0 -100%;
 }
 
 .menu_container {
     width: var(--Main_Width);
-    background-color: var(--White);
+    background-color: var(--Light_Gray);
     border-radius: 1em;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 8em;
+    padding-top: 5em;
 }
 
 .menu_container a {
     width: 95%;
     text-align: center;
-    padding-block: 2em;
+    padding-block: 1.8em;
     font-family: var(--Inter);
     font-weight: 500;
     font-size: 1em;
