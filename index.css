@@ -68,7 +68,7 @@ main {
     background-color: var(--Light_Gray);
     border-radius: 1em;
     position: relative;
-    background-color: coral;
+    background-color: ;
 }
 
 .hero_bottom_left,
@@ -78,7 +78,6 @@ main {
     align-items: start;
     justify-content: space-between;
     padding-inline: 2em;
-    /* background-color: red; */
 }
 
 .hero_bottom_right {
@@ -199,11 +198,6 @@ main {
         text-align: center;
     }
 
-    .hero_bottom_left,
-    .hero_bottom_right {
-        padding: 1.5em;
-    }
-
     .hero_bottom_left_elem h1 {
         font-size: 1.7em;
         margin-bottom: 0;
@@ -214,6 +208,23 @@ main {
     }
 
     .hero_bottom_right {
-        gap: 1em;
+        gap: 1.5em;
+    }
+}
+
+@media (width < 400px) {
+    .hero_bottom_left {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .hero_bottom_left_elem:first-child {
+        border-bottom: solid 0.01em var(--Gray);
+        border-bottom-style: dashed;
+    }
+
+    .hero_bottom_left_elem:last-child {
+        border-top: solid 0.01em var(--Gray);
+        border-top-style: dashed;
     }
 }
