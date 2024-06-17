@@ -7,7 +7,7 @@ main {
 .hero_container {
     margin: auto;
     width: var(--Main_Width);
-    padding-block: 5em;
+    padding-block: 8em 5em;
     position: relative;
 }
 
