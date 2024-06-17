@@ -82,12 +82,20 @@ body.html {
     color: var(--Black);
 }
 
+.orange_btn:active,
+.nav_link:active,
+.cart_div:active,
+.nav_btn:active {
+    scale: 0.95;
+}
+
 nav {
     width: var(--Max_Width);
     margin: auto;
 }
 
 .navigation {
+    user-select: none;
     width: var(--Main_Width);
     padding-block: 0.5em;
     margin: auto;
