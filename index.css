@@ -61,6 +61,7 @@ main {
     grid-template-columns: 1fr 1.5fr 1fr;
     gap: 1em;
     background-color: var(--Light_Gray);
+    border-radius: 1em;
 }
 
 .hero_bottom_left {
@@ -71,13 +72,14 @@ main {
 }
 
 .hero_bottom_left_elem {
-    padding-block: 1em;
+    padding: 1.5em;
 }
 
 .hero_bottom_left_elem h1 {
     font-family: var(--Inter);
     font-weight: 600;
     font-size: 2em;
+    color: var(--Black);
 }
 
 @media (width < 1000px) {
