@@ -85,13 +85,9 @@ main {
     width: 100%;
 }
 
-.hero_bottom_left_elem:first-child {
+.hero_bottom_left_elem:not(:last-child) {
     border-bottom: solid 0.01em var(--Gray);
     border-bottom-style: dashed;
-}
-.hero_bottom_left_elem:last-child {
-    border-top: solid 0.01em var(--Gray);
-    border-top-style: dashed;
 }
 
 .hero_bottom_left_elem h1 {
@@ -161,8 +157,7 @@ main {
         text-align: center;
     }
 
-    .hero_bottom_left_elem:first-child,
-    .hero_bottom_left_elem:last-child {
+    .hero_bottom_left_elem:not(:last-child) {
         border: none;
     }
 
@@ -213,13 +208,8 @@ main {
         gap: 0;
     }
 
-    .hero_bottom_left_elem:first-child {
+    .hero_bottom_left_elem:not(:last-child) {
         border-bottom: solid 0.01em var(--Gray);
         border-bottom-style: dashed;
-    }
-
-    .hero_bottom_left_elem:last-child {
-        border-top: solid 0.01em var(--Gray);
-        border-top-style: dashed;
     }
 }
