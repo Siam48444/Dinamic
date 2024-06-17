@@ -79,9 +79,11 @@ main {
 
 .hero_bottom_left_elem:first-child {
     border-bottom: solid 0.01em var(--Gray);
+    border-bottom-style: dashed;
 }
 .hero_bottom_left_elem:last-child {
     border-top: solid 0.01em var(--Gray);
+    border-top-style: dashed;
 }
 
 .hero_bottom_left_elem h1 {
