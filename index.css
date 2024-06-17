@@ -171,6 +171,9 @@ main {
 }
 
 .solution_svg_div {
+    aspect-ratio: 1 / 1;
+    display: grid;
+    place-items: center;
     padding: 0.5em;
     background-color: var(--White);
     border-radius: 50%;
@@ -178,7 +181,6 @@ main {
 
 .solution_svg_div svg {
     height: 2em;
-    fill: var(--Orange);
 }
 
 .solution h4 {
