@@ -118,11 +118,10 @@ html {
 }
 
 nav {
-    width: var(--Max_Width);
-    background-color: var(--Blue);
+    background-color: var(--White);
     z-index: 9;
-    margin: auto;
     position: fixed;
+    inset: 0 0 auto 0;
 }
 
 .navigation {
