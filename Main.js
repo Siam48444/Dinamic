@@ -31,7 +31,7 @@ hamburger_btn.addEventListener("click", () => {
         tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.3, ease: "back.out" }, "<");
 
         // Menu opening.
-        gsap.to(menu, { yPercent: 100, duration: 0.8, ease: "power3.out" });
+        gsap.to(menu, { y: 0, duration: 0.8, ease: "power3.out" });
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
@@ -44,6 +44,6 @@ hamburger_btn.addEventListener("click", () => {
         tl.to(hamburger_line[1], { y: "0.015em", duration: 0.3, ease: "back.out" }, "<");
 
         // Menu closing.
-        gsap.to(menu, { yPercent: -100, duration: 0.8, ease: "power3.in" });
+        gsap.to(menu, { y: "-100%", duration: 0.8, ease: "power3.in" });
     }
 });
