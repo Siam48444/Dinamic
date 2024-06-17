@@ -105,11 +105,15 @@ main {
     color: var(--Gray);
 }
 
-.hero_bottom_image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero_bottom_video {
     border-radius: 1em;
+    overflow: hidden;
+}
+
+.hero_bottom_video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero_bottom_right_svg_container svg {
@@ -161,7 +165,7 @@ main {
         border: none;
     }
 
-    .hero_bottom_image {
+    .hero_bottom_video {
         height: 15em;
     }
 }
