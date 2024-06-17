@@ -167,7 +167,7 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 1em;
+    gap: 1.5em;
 }
 
 .solution h4 {
@@ -181,7 +181,11 @@ main {
     font-family: var(--Inter);
     font-weight: 400;
     font-size: 1em;
-    color: var(--Gray);
+    color: var(--Black);
+}
+
+.solution_link a {
+    
 }
 
 .a {
