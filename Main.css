@@ -114,6 +114,11 @@ html {
 .learn_more_link svg {
     height: 1.5em;
     fill: var(--Black);
+    transition: transform var(--Transition_Time);
+}
+
+.learn_more_link:hover svg {
+    transform: rotate(180deg);
 }
 
 .user_profile {
