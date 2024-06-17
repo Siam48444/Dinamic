@@ -26,15 +26,21 @@ hamburger_btn.addEventListener("click", () => {
     if (hamburger_att == "false") {
         hamburger_btn.setAttribute("data-clicked", "true");
 
-        // Hamburger clicked animations.
-        tl.to(hamburger_line[0], {
-            y: "0.3em",
-        });
-        tl.to(hamburger_line[1], {
-            y: "-0.3em",
-        });
+        // Hamburger openned animations.
+        tl.to(hamburger_line[0], { y: "0.225em", duration: 0.2 }, "a");
+        tl.to(hamburger_line[1], { y: "-0.225em", duration: 0.2 }, "a");
+        
+        tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.2 }, "b");
+        tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.2 }, "b");
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
+        
+        // Hamburger closed animations.
+        tl.to(hamburger_line[0], { rotate: "0", duration: 0.2 }, "c");
+        tl.to(hamburger_line[1], { rotate: "0", duration: 0.2 }, "c");
+
+        tl.to(hamburger_line[0], { y: "-0.225em", duration: 0.2 }, "d");
+        tl.to(hamburger_line[1], { y: "0.225em", duration: 0.2 }, "d");
     }
 });
