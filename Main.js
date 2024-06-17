@@ -27,20 +27,20 @@ hamburger_btn.addEventListener("click", () => {
         hamburger_btn.setAttribute("data-clicked", "true");
 
         // Hamburger openned animations.
-        tl.to(hamburger_line[0], { y: "0.225em", duration: 0.2 });
-        tl.to(hamburger_line[1], { y: "-0.225em", duration: 0.2 }, "<");
+        tl.to(hamburger_line[0], { y: "0.225em", duration: 0.2, ease: "back.out" });
+        tl.to(hamburger_line[1], { y: "-0.225em", duration: 0.2, ease: "back.out" }, "<");
 
-        tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.2 });
-        tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.2 }, "<");
+        tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.2, ease: "back.out" });
+        tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.2, ease: "back.out" }, "<");
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
 
         // Hamburger closed animations.
-        tl.to(hamburger_line[0], { rotate: "0", duration: 0.2 });
-        tl.to(hamburger_line[1], { rotate: "0", duration: 0.2 }, "<");
+        tl.to(hamburger_line[0], { rotate: "0", duration: 0.2, ease: "back.out" });
+        tl.to(hamburger_line[1], { rotate: "0", duration: 0.2, ease: "back.out" }, "<");
 
-        tl.to(hamburger_line[0], { y: "-0.015em", duration: 0.2 });
-        tl.to(hamburger_line[1], { y: "0.015em", duration: 0.2 }, "<");
+        tl.to(hamburger_line[0], { y: "-0.015em", duration: 0.2, ease: "back.out" });
+        tl.to(hamburger_line[1], { y: "0.015em", duration: 0.2, ease: "back.out" }, "<");
     }
 });
