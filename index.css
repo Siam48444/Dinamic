@@ -102,7 +102,7 @@ main {
     font-family: var(--Inter);
     font-weight: 400;
     font-size: 0.8em;
-    color: var(--Gray);
+    color: var(--Black);
 }
 
 .hero_bottom_video {
@@ -141,12 +141,15 @@ main {
     padding-block: 5em;
 }
 
+.potential_title {
+    margin-bottom: 2em;
+}
+
 .potential_title h1 {
-    font-family: var(--General_Sans);    
+    font-family: var(--General_Sans);
     font-size: 4em;
     font-weight: 600;
 }
-
 
 .a {
     height: 100vh;
