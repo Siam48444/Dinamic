@@ -99,14 +99,21 @@ html {
 
 .learn_more_link {
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
-    gap: 0.5em;
+    gap: 0.2em;
+}
+
+.learn_more_link p {
     font-family: var(--Inter);
     font-weight: 600;
     font-size: 1em;
     color: var(--Black);
-    background-color: red;
+}
+
+.learn_more_link svg {
+    height: 1.5em;
+    fill: var(--Black);
 }
 
 .user_profile {
