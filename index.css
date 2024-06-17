@@ -170,6 +170,17 @@ main {
     gap: 1.5em;
 }
 
+.solution_svg_div {
+    padding: 0.5em;
+    background-color: var(--White);
+    border-radius: 50%;
+}
+
+.solution_svg_div svg {
+    height: 2em;
+    fill: var(--Orange);
+}
+
 .solution h4 {
     font-family: var(--Inter);
     font-weight: 600;
