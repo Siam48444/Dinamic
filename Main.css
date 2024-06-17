@@ -324,4 +324,8 @@ nav {
     .nav_logo svg {
         height: 1.2em;
     }
+
+    .learn_more_link p {
+        font-size: 1em;
+    }
 }
