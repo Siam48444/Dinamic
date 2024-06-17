@@ -157,8 +157,8 @@ main {
         gap: 2em;
     }
 
-    .hero_bottom h1,
-    .hero_bottom p {
+    .hero_bottom_left_elem h1,
+    .hero_bottom_left_elem p {
         text-align: center;
     }
 
@@ -192,5 +192,23 @@ main {
     .hero_btn {
         width: 100%;
         text-align: center;
+    }
+
+    .hero_bottom_left,
+    .hero_bottom_right {
+        padding: 1.5em;
+    }
+
+    .hero_bottom_left_elem h1 {
+        font-size: 1.7em;
+        margin-bottom: 0;
+    }
+
+    .hero_bottom_left_elem p {
+        font-size: 0.7em;
+    }
+
+    .hero_bottom_right {
+        gap: 1em;
     }
 }
