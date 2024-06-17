@@ -68,6 +68,10 @@ body.html {
     --Transition_Time: 200ms;
 }
 
+.clicked_scale:active {
+    scale: 0.95;
+}
+
 .orange_btn {
     background-color: var(--Orange);
     border: solid 0.01em var(--Orange);
@@ -80,13 +84,6 @@ body.html {
 .orange_btn:hover {
     background-color: var(--White);
     color: var(--Black);
-}
-
-.orange_btn:active,
-.nav_link:active,
-.cart_div:active,
-.nav_btn:active {
-    scale: 0.95;
 }
 
 .user_profile {

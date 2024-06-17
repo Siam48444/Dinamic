@@ -56,10 +56,6 @@ main {
     background-color: var(--Light_Gray);
 }
 
-.hero_btn:active {
-    scale: 0.95;
-}
-
 .hero_bottom {
     margin-top: 5em;
     margin-inline: auto;
