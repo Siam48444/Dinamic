@@ -263,7 +263,7 @@ main {
     }
 
     .solution {
-        grid-column: 1 / 2;
+        grid-column: span 2;
     }
 }
 
