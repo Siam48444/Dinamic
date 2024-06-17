@@ -234,7 +234,6 @@ nav {
 .menu {
     position: fixed;
     width: var(--Max_Width);
-    margin: auto;
     z-index: 8;
     overflow: hidden auto;
     translate: 0 -100%;
