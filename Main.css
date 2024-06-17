@@ -232,13 +232,13 @@ nav {
 .menu {
     width: var(--Max_Width);
     margin: auto;
-    background-color: var(--White);
     z-index: 8;
     position: fixed;
     overflow: hidden;
 }
 
 .menu_container {
+    background-color: var(--White);
     border-radius: 1em;
     width: var(--Main_Width);
     margin: auto;
@@ -246,12 +246,22 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 5em;
 }
 
 .menu_container a {
-    width: 100%;
+    width: 95%;
     text-align: center;
     padding-block: 2em;
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--Black);
+}
+
+.menu_container a:not(:last-child) {
+    border-bottom: solid 0.01em var(--Gray);
+    border-bottom-style: dashed;
 }
 
 @media (width > 1000px) {
