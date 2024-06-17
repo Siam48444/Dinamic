@@ -24,26 +24,26 @@ hamburger_btn.addEventListener("click", () => {
         hamburger_btn.setAttribute("data-clicked", "true");
 
         // Hamburger openned animations.
-        tl.to(hamburger_line[0], { y: "0.225em", duration: 0.2, ease: "back.out" });
-        tl.to(hamburger_line[1], { y: "-0.225em", duration: 0.2, ease: "back.out" }, "<");
+        tl.to(hamburger_line[0], { y: "0.225em", duration: 0.3, ease: "back.out" });
+        tl.to(hamburger_line[1], { y: "-0.225em", duration: 0.3, ease: "back.out" }, "<");
 
-        tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.2, ease: "back.out" });
-        tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.2, ease: "back.out" }, "<");
+        tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.3, ease: "back.out" });
+        tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.3, ease: "back.out" }, "<");
 
         // Menu opening.
-        gsap.to(menu, { yPercent: 100, duration: 0.5, ease: "power1.out" });
+        gsap.to(menu, { yPercent: 100, duration: 0.8, ease: "power3.out" });
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
 
         // Hamburger closed animations.
-        tl.to(hamburger_line[0], { rotate: "0", duration: 0.2, ease: "back.out" });
-        tl.to(hamburger_line[1], { rotate: "0", duration: 0.2, ease: "back.out" }, "<");
+        tl.to(hamburger_line[0], { rotate: "0", duration: 0.3, ease: "back.out" });
+        tl.to(hamburger_line[1], { rotate: "0", duration: 0.3, ease: "back.out" }, "<");
 
-        tl.to(hamburger_line[0], { y: "-0.015em", duration: 0.2, ease: "back.out" });
-        tl.to(hamburger_line[1], { y: "0.015em", duration: 0.2, ease: "back.out" }, "<");
+        tl.to(hamburger_line[0], { y: "-0.015em", duration: 0.3, ease: "back.out" });
+        tl.to(hamburger_line[1], { y: "0.015em", duration: 0.3, ease: "back.out" }, "<");
 
         // Menu closing.
-        gsap.to(menu, { yPercent: -100, duration: 0.5, ease: "power1.out" });
+        gsap.to(menu, { yPercent: -100, duration: 0.8, ease: "power3.in" });
     }
 });

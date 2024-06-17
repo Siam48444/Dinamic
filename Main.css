@@ -232,19 +232,18 @@ nav {
 }
 
 .menu {
+    position: fixed;
     width: var(--Max_Width);
     margin: auto;
     z-index: 8;
-    position: fixed;
-    overflow: hidden;
-    transform: translateY(-100%);
-    overflow-y: auto;
+    overflow: auto hidden;
+    translate: 0 -100%;
 }
 
 .menu_container {
+    width: var(--Main_Width);
     background-color: var(--White);
     border-radius: 1em;
-    width: var(--Main_Width);
     margin: auto;
     display: flex;
     flex-direction: column;
