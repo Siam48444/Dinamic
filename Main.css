@@ -161,7 +161,8 @@ nav {
     transition: color var(--Transition_Time);
 }
 
-.nav_link:hover:not(#link_active) {
+.nav_link:hover:not(#link_active),
+.menu_container a:hover:not(#link_active) {
     color: var(--Orange);
 }
 
@@ -235,6 +236,7 @@ nav {
     z-index: 8;
     position: fixed;
     overflow: hidden;
+    transform: translateY(-105%);
 }
 
 .menu_container {
@@ -257,11 +259,7 @@ nav {
     font-weight: 500;
     font-size: 1em;
     color: var(--Black);
-}
-
-.menu_container a:not(:last-child) {
-    border-bottom: solid 0.01em var(--Gray);
-    border-bottom-style: dashed;
+    transition: color var(--Transition_Time);
 }
 
 @media (width > 1000px) {
