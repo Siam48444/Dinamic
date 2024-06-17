@@ -20,10 +20,19 @@ var tl = gsap.timeline();
 const hamburger_btn = document.querySelector(".hamburger_btn");
 
 hamburger_btn.addEventListener("click", () => {
+    const hamburger_line = document.querySelectorAll(".hamburger_line");
     const hamburger_att = hamburger_btn.getAttribute("data-clicked");
 
     if (hamburger_att == "false") {
         hamburger_btn.setAttribute("data-clicked", "true");
+
+        // Hamburger clicked animations.
+        tl.to(hamburger_line[0], {
+            y: "0.3em",
+        });
+        tl.to(hamburger_line[1], {
+            y: "-0.3em",
+        });
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
