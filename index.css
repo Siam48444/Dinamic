@@ -13,7 +13,7 @@ main {
 
 .hero_head {
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 
 .hero_head h1 {
@@ -30,7 +30,7 @@ main {
     font-family: var(--Inter);
     font-weight: 500;
     font-size: 1.1em;
-    color: var(--Gray);
+    color: var(--Black);
     text-align: center;
 }
 
@@ -142,13 +142,14 @@ main {
 }
 
 .potential_title {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .potential_title h1 {
     font-family: var(--General_Sans);
     font-size: 4em;
     font-weight: 600;
+    line-height: 1.2;
 }
 
 .saas_solution_container {
@@ -167,6 +168,20 @@ main {
     align-items: start;
     justify-content: center;
     gap: 1em;
+}
+
+.solution h4 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+}
+
+.solution p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
 }
 
 .a {
