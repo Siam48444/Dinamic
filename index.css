@@ -91,12 +91,13 @@ main {
     font-weight: 600;
     font-size: 2em;
     color: var(--Black);
+    margin-bottom: 0.5em;
 }
 
 .hero_bottom_left_elem p {
     font-family: var(--Inter);
     font-weight: 400;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: var(--Gray);
 }
 
