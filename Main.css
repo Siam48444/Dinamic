@@ -37,6 +37,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden auto;
 
     background-color: var(--White);
 }
@@ -236,7 +237,8 @@ nav {
     z-index: 8;
     position: fixed;
     overflow: hidden;
-    transform: translateY(-105%);
+    transform: translateY(-100%);
+    overflow-y: auto;
 }
 
 .menu_container {
