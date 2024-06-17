@@ -117,7 +117,7 @@ main {
 }
 
 .hero_bottom_right_svg_container svg {
-    height: 4em;
+    height: 3em;
     fill: var(--Black);
 }
 
