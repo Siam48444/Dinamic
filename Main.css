@@ -44,6 +44,10 @@ body.html {
     font-family: General_Sans;
     src: url(Fonts/General_Sans.ttf);
 }
+@font-face {
+    font-family: Inter;
+    src: url(Fonts/Inter.ttf);
+}
 
 :root {
     /* Colors */
@@ -56,6 +60,7 @@ body.html {
 
     /* Fonts */
     --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
+    --Inter: Inter, Arial, Helvetica, sans-serif;
 
     /* Others */
     --Max_Width: min(100em, 100%);
@@ -67,6 +72,7 @@ body.html {
     background-color: var(--Orange);
     border: solid 0.01em var(--Orange);
     color: var(--White);
+    font-family: var(--Inter);
     transition-property: background-color, color;
     transition-duration: var(--Transition_Time);
 }
