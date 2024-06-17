@@ -177,7 +177,6 @@ main {
     padding: 0.5em;
     background-color: var(--White);
     border-radius: 50%;
-    border: solid 0.1em var(--Orange);
 }
 
 .solution_svg_div svg {
