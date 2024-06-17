@@ -94,9 +94,9 @@ main {
 .hero_bottom_left_elem h1 {
     font-family: var(--Inter);
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--Black);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 .hero_bottom_left_elem p {
@@ -129,12 +129,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5em;
+    gap: 1em;
 }
 
 .user_image {
     height: 3em;
     aspect-ratio: 1 / 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
 }
 
 .user_detail {
@@ -143,6 +147,20 @@ main {
     align-items: start;
     justify-content: center;
     gap: 0.3em;
+}
+
+.user_detail h5 {
+    font-family: var(--Inter);
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Black);
+}
+
+.user_detail p {
+    font-family: var(--Inter);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--Gray);
 }
 
 @media (width < 1000px) {

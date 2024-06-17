@@ -2,7 +2,7 @@
 var tl = gsap.timeline();
 
 // Load animation.
-gsap.from(".load_appear", {
+tl.from(".load_appear", {
     opacity: 0,
     y: 20,
     duration: 0.5,
