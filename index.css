@@ -63,11 +63,12 @@ main {
     border-radius: 1em;
 }
 
-.hero_bottom_left {
+.hero_bottom_left,
+.hero_bottom_right {
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
     padding-inline: 2em;
 }
 
@@ -106,6 +107,9 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1em;
+}
+
+.hero_bottom_right {
 }
 
 @media (width < 1000px) {
