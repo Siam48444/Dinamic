@@ -166,6 +166,10 @@ main {
     .hero_bottom_left_elem:last-child {
         border: none;
     }
+
+    .hero_bottom_image {
+        height: 15em;
+    }
 }
 
 @media (width < 500px) {
