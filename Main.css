@@ -102,13 +102,11 @@ html {
     align-items: center;
     justify-content: center;
     gap: 0.5em;
-}
-
-.learn_more_link a {
     font-family: var(--Inter);
     font-weight: 600;
     font-size: 1em;
     color: var(--Black);
+    background-color: red;
 }
 
 .user_profile {
