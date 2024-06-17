@@ -16,6 +16,7 @@ var tl = gsap.timeline();
 const hamburger_btn = document.querySelector(".hamburger_btn");
 
 hamburger_btn.addEventListener("click", () => {
+    const menu = document.querySelector(".menu");
     const hamburger_line = document.querySelectorAll(".hamburger_line");
     const hamburger_att = hamburger_btn.getAttribute("data-clicked");
 
@@ -28,6 +29,9 @@ hamburger_btn.addEventListener("click", () => {
 
         tl.to(hamburger_line[0], { rotate: "-45deg", duration: 0.2, ease: "back.out" });
         tl.to(hamburger_line[1], { rotate: "45deg", duration: 0.2, ease: "back.out" }, "<");
+
+        // Menu opening.
+        gsap.to(menu, { yPercent: 100, duration: 0.5, ease: "power1.out" });
     }
     if (hamburger_att == "true") {
         hamburger_btn.setAttribute("data-clicked", "false");
@@ -38,5 +42,8 @@ hamburger_btn.addEventListener("click", () => {
 
         tl.to(hamburger_line[0], { y: "-0.015em", duration: 0.2, ease: "back.out" });
         tl.to(hamburger_line[1], { y: "0.015em", duration: 0.2, ease: "back.out" }, "<");
+
+        // Menu closing.
+        gsap.to(menu, { yPercent: -100, duration: 0.5, ease: "power1.out" });
     }
 });
