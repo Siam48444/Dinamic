@@ -148,9 +148,25 @@ main {
 }
 
 @media (width < 850px) {
-    
-}
+    .hero_bottom {
+        grid-template-columns: 1fr;
+    }
 
+    .hero_bottom_left {
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .hero_bottom h1,
+    .hero_bottom p {
+        text-align: center;
+    }
+
+    .hero_bottom_left_elem:first-child,
+    .hero_bottom_left_elem:last-child {
+        border: none;
+    }
+}
 
 @media (width < 500px) {
     .hero_head {
