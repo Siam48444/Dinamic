@@ -122,7 +122,6 @@ nav {
 }
 
 .navigation {
-    user-select: none;
     width: var(--Main_Width);
     padding-block: 0.5em;
     margin: auto;
