@@ -31,7 +31,8 @@ html.lenis body {
     text-decoration: none;
 }
 
-body.html {
+body,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -224,6 +225,12 @@ nav {
     height: 0.15em;
     border-radius: 9em;
     background-color: var(--Black);
+}
+
+.menu {
+    width: var(--Max_Width);
+    margin: auto;
+    background-color: var(--White);
 }
 
 @media (width < 1000px) {
