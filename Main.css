@@ -78,6 +78,10 @@ html {
     color: var(--Orange);
 }
 
+.gray_text {
+    color: var(--Gray);
+}
+
 .orange_btn {
     background-color: var(--Orange);
     border: solid 0.01em var(--Orange);
