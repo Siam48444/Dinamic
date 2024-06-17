@@ -8,6 +8,7 @@ main {
     margin: auto;
     width: var(--Main_Width);
     padding-block: 5em;
+    position: relative;
 }
 
 .hero_head {
@@ -61,11 +62,13 @@ main {
 
 .hero_bottom {
     margin-top: 5em;
+    margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     background-color: var(--Light_Gray);
     border-radius: 1em;
     position: relative;
+    background-color: coral;
 }
 
 .hero_bottom_left,
@@ -75,6 +78,7 @@ main {
     align-items: start;
     justify-content: space-between;
     padding-inline: 2em;
+    /* background-color: red; */
 }
 
 .hero_bottom_right {
