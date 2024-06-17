@@ -109,9 +109,36 @@ main {
     border-radius: 1em;
 }
 
-.hero_bottom_right_svg_container {
-    background-color: coral;
+.hero_bottom_right_svg_container svg {
+    height: 4em;
+    fill: var(--Black);
+}
+
+.hero_bottom_right h6 {
+    font-family: var(--Inter);
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--Black);
+}
+
+.user_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.user_image {
     height: 3em;
+    aspect-ratio: 1 / 1;
+}
+
+.user_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.3em;
 }
 
 @media (width < 1000px) {
