@@ -47,3 +47,14 @@ hamburger_btn.addEventListener("click", () => {
         gsap.to(menu, { y: "-100%", duration: 0.8, ease: "power3.in" });
     }
 });
+
+// Appearing on scroll animation.
+const scroll_appear = document.querySelectorAll(".scroll_appear");
+scroll_appear.forEach((appear) => {
+    gsap.from(appear, {
+        opacity: 0,
+        duration: 0.5,
+        y: 30,
+        scrollTrigger: { trigger: appear, start: "top 70%" },
+    });
+});
