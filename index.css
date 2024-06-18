@@ -386,6 +386,10 @@ main {
     color: var(--Gray);
 }
 
+.vision_left span {
+    color: var(--Orange);
+}
+
 .vision_left .learn_more_link {
     margin-top: 2em;
     width: fit-content;
