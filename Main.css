@@ -107,7 +107,7 @@ html {
 .learn_more_link p {
     font-family: var(--Inter);
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.1em;
     color: var(--Black);
 }
 
