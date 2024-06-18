@@ -204,6 +204,7 @@ main {
 
 .partners_svg_div svg {
     height: 4em;
+    filter: brightness(5);
 }
 
 .potential_section {
