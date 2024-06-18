@@ -360,14 +360,15 @@ main {
     flex-direction: column;
     align-items: strat;
     justify-content: center;
-    gap: 0.5em;
+    gap: 1em;
 }
 
 .vision_left h3 {
     font-family: var(--Inter);
     font-weight: 600;
-    font-size: 2em;
+    font-size: 2.5em;
     color: var(--Black);
+    line-height: 1;
 }
 
 .vision_left h6 {
@@ -376,6 +377,25 @@ main {
     font-size: 1.1em;
     color: var(--Black);
     margin-bottom: 2em;
+}
+
+.vision_left p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--Gray);
+}
+
+.vision_left .learn_more_link {
+    margin-top: 2em;
+    width: fit-content;
+}
+
+.vision_right {
+    border-radius: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .a {
