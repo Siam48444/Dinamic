@@ -300,6 +300,26 @@ main {
     gap: 3em;
 }
 
+.development_detail h3 {
+    font-family: var(--Inter);
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--Black);
+    margin-bottom: 0.5em;
+}
+
+.development_detail span {
+    color: var(--Orange);
+}
+
+.development_detail p {
+    font-family: var(--Inter);
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--Black);
+    margin-left: 1em;
+}
+
 .development_right {
     border-radius: 1em;
     background-position: center;
