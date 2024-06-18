@@ -316,7 +316,7 @@ main {
     font-family: var(--Inter);
     font-size: 1em;
     font-weight: 400;
-    color: var(--Black);
+    color: var(--Gray);
     margin-left: 1em;
 }
 
@@ -359,6 +359,10 @@ main {
     .solution:last-child {
         grid-column: 1 / span 2;
     }
+
+    .development_detail h3 {
+        font-size: 1.2em;
+    }
 }
 
 @media (width < 850px) {
@@ -391,6 +395,8 @@ main {
     .solution {
         grid-column: span 2;
     }
+
+    
 }
 
 @media (width < 500px) {
