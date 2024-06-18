@@ -233,11 +233,30 @@ main {
     align-items: center;
     justify-content: right;
 
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 30%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &::before {
+        inset: 0 auto 0 0;
+        background-image: linear-gradient(90deg, var(--Light_Gray), transparent);
+    }
+    &::after {
+        inset: 0 0 0 auto;
+        background-image: linear-gradient(-90deg, var(--Light_Gray), transparent);
+    }
 }
 
 .slider {
-    /* transform: translateX(10%); */
-    background-color: coral;
+    /* transform: translateX(50%);
+    background-color: coral; */
     display: flex;
     align-items: center;
     justify-content: center;
