@@ -224,13 +224,33 @@ main {
 }
 
 .partners_carousel_container {
-    background-color: coral;
+    background-color: var(--Light_Gray);
+    border-radius: 1em;
     position: relative;
     padding-block: 3em;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
 }
 
 .slider {
-    
+    /* transform: translateX(10%); */
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.partners_svg_div {
+    display: grid;
+    place-items: center;
+}
+
+.partners_svg_div svg {
+    height: 5em;
 }
 
 .a {
