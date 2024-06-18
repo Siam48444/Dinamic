@@ -310,6 +310,7 @@ main {
 
 .development_detail span {
     color: var(--Orange);
+    font-weight: 400;
 }
 
 .development_detail p {
