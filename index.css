@@ -328,6 +328,17 @@ main {
     background-repeat: no-repeat;
 }
 
+.vision_section {
+    position: relative;
+    margin: auto;
+    width: var(--Max_Width);
+}
+
+.vision_container {
+    margin: auto;
+    width: var(--Main_Width);
+}
+
 .a {
     height: 100vh;
 }
