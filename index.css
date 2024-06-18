@@ -254,10 +254,6 @@ main {
         height: 15em;
     }
 
-    .potential_title h1 {
-        font-size: 2.5em;
-    }
-
     .saas_solution_container {
         grid-template-columns: 1fr;
     }
