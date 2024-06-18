@@ -277,6 +277,21 @@ main {
     color: var(--Black);
 }
 
+.development_section {
+    position: relative;
+    margin: auto;
+    width: var(--Max_Width);
+}
+
+.development_container {
+    margin: auto;
+    width: var(--Main_Width);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 3em;
+    gap: 3em;
+}
+
 .a {
     height: 100vh;
 }
