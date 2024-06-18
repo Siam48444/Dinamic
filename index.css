@@ -358,7 +358,9 @@ main {
 .vision_left {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: strat;
+    justify-content: center;
+    gap: 0.5em;
 }
 
 .a {
