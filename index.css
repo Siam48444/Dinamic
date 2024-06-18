@@ -198,6 +198,32 @@ main {
     color: var(--Black);
 }
 
+.partners_section {
+    position: relative;
+    width: var(--Max_Width);
+    margin: auto;
+}
+
+.partners_container {
+    position: relative;
+    width: var(--Main_Width);
+    margin: auto;
+    padding-block: 5em;
+}
+
+.partners_title {
+    margin-bottom: 2em;
+}
+
+.partners_title p {
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1.1em;
+    color: var(--Black);
+    text-align: center;
+}
+
+
 .a {
     height: 100vh;
 }
