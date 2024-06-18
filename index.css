@@ -396,7 +396,18 @@ main {
         grid-column: span 2;
     }
 
-    
+    .development_container {
+        grid-template-columns: 1fr;
+    }
+
+    .development_left,
+    .development_container {
+        gap: 1.5em;
+    }
+
+    .development_right {
+        height: 20em;
+    }
 }
 
 @media (width < 500px) {
@@ -449,6 +460,12 @@ main {
     .solution h4,
     .partners_title p {
         font-size: 1em;
+    }
+
+    .hero_bottom_right h6,
+    .development_detail p,
+    .solution p {
+        font-size: 0.9em;
     }
 }
 
