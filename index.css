@@ -239,6 +239,7 @@ main {
         content: "";
         height: 100%;
         width: 30%;
+        z-index: 3;
     }
 
     &::before {
@@ -252,20 +253,19 @@ main {
 }
 
 .slider {
-    /* transform: translateX(50%); */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2em;
-
-    animation: partners_carousel infinite 3s linear;
+    
+    animation: partners_carousel infinite 20s linear;
 }
 
-/* @keyframes partners_carousel {
+@keyframes partners_carousel {
     to {
-        transform: translateX(-50%);
+        transform: translateX(-60.55%);
     }
-} */
+}
 
 .partners_svg_div {
     display: grid;
@@ -273,7 +273,7 @@ main {
 }
 
 .partners_svg_div svg {
-    width: 10em;
+    height: 4em;
 }
 
 .a {
