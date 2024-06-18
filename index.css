@@ -306,6 +306,14 @@ main {
         font-size: 2em;
     }
 
+    .solution {
+        gap: 1em;
+    }
+
+    .solution_svg_div svg {
+        height: 1.3em;
+    }
+
     .solution h4 {
         font-size: 1em;
     }
