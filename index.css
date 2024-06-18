@@ -363,6 +363,21 @@ main {
     gap: 0.5em;
 }
 
+.vision_left h3 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--Black);
+}
+
+.vision_left h6 {
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1.1em;
+    color: var(--Black);
+    margin-bottom: 2em;
+}
+
 .a {
     height: 100vh;
 }
