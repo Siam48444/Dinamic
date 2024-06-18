@@ -337,6 +337,15 @@ main {
 .vision_container {
     margin: auto;
     width: var(--Main_Width);
+    padding-block: 5em;
+}
+
+.vision_title h1 {
+    font-family: var(--General_Sans);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
 }
 
 .a {
