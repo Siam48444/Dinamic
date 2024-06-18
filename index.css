@@ -223,6 +223,15 @@ main {
     text-align: center;
 }
 
+.partners_carousel_container {
+    background-color: coral;
+    position: relative;
+    padding-block: 3em;
+}
+
+.slider {
+    
+}
 
 .a {
     height: 100vh;
