@@ -231,7 +231,7 @@ main {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
 
     &::before,
     &::after {
@@ -239,9 +239,6 @@ main {
         content: "";
         height: 100%;
         width: 30%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     &::before {
@@ -255,13 +252,20 @@ main {
 }
 
 .slider {
-    /* transform: translateX(50%);
-    background-color: coral; */
+    /* transform: translateX(50%); */
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2em;
+
+    animation: partners_carousel infinite 3s linear;
 }
+
+/* @keyframes partners_carousel {
+    to {
+        transform: translateX(-50%);
+    }
+} */
 
 .partners_svg_div {
     display: grid;
