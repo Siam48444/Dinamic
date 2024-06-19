@@ -350,15 +350,10 @@ main {
 
 .vision_main {
     position: relative;
-    background-color: coral;
     padding-block: 5em;
-    display: grid;
-    grid-template-rows: 1fr;
 }
 
 .vision {
-    background-color: red;
-    grid-row: span 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
@@ -397,6 +392,7 @@ main {
 
 .vision_left span {
     color: var(--Orange);
+    font-weight: 500;
 }
 
 .vision_left .learn_more_link {
