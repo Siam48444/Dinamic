@@ -13,4 +13,6 @@ gsap.from(".load_appear", {
 // Vision button interactivity.
 const vision_btn = document.querySelectorAll(".vision_btn");
 
-vision_btn.forEach()
+for (let x = 0; x < vision_btn.length; x++) {
+    vision_btn[x].classList.remove("vision_active");
+}
