@@ -263,13 +263,17 @@ nav {
     height: 0.15em;
     border-radius: 9em;
     background-color: var(--Black);
+    transform-origin: 50%;
+    transition: translate 1000ms, transform 1000ms;
 }
 
 .line_1_clicked {
-    transform: translateY(0.225em);
+    translate: 0 0.225em;
+    transform: rotate(-45deg);
 }
 .line_2_clicked {
-    transform: translateY(-0.225em);
+    translate: 0 -0.225em;
+    transform: rotate(45deg);
 }
 
 .menu {

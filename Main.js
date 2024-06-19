@@ -14,10 +14,9 @@ var tl = gsap.timeline();
 
 // Hamburger button interaction.
 const hamburger_btn = document.querySelector(".hamburger_btn");
+const hamburger_line = document.querySelectorAll(".hamburger_line");
 
 hamburger_btn.addEventListener("click", () => {
-    const hamburger_line = document.querySelectorAll(".hamburger_line");
-
     hamburger_line[0].classList.toggle("line_1_clicked");
     hamburger_line[1].classList.toggle("line_2_clicked");
 });
