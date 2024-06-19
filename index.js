@@ -9,3 +9,7 @@ gsap.from(".load_appear", {
     stagger: 0.1,
     delay: 0.3,
 });
+
+// Vision button interactivity.
+const vision_btn = document.querySelectorAll(".vision_btn");
+
