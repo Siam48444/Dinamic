@@ -13,10 +13,18 @@ gsap.from(".load_appear", {
 // Vision button interactivity.
 const vision_btn = document.querySelectorAll(".vision_btn");
 
-for (let x = 0; x < vision_btn.length; x++) {
-    vision_btn[x].classList.remove("vision_active");
-
-    vision_btn[x].addEventListener("click", () => {
-        vision_btn[x].classList.add("vision_active");
-    });
-}
+vision_btn[0].addEventListener("click", () => {
+    vision_btn[0].classList.add("vision_active");
+    vision_btn[1].classList.remove("vision_active");
+    vision_btn[2].classList.remove("vision_active");
+});
+vision_btn[1].addEventListener("click", () => {
+    vision_btn[0].classList.remove("vision_active");
+    vision_btn[1].classList.add("vision_active");
+    vision_btn[2].classList.remove("vision_active");
+});
+vision_btn[2].addEventListener("click", () => {
+    vision_btn[0].classList.remove("vision_active");
+    vision_btn[1].classList.remove("vision_active");
+    vision_btn[2].classList.add("vision_active");
+});
