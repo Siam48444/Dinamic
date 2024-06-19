@@ -365,15 +365,13 @@ main {
     font-family: var(--Inter);
     font-weight: 400;
     font-size: 1em;
-    transition: border-color var(--Transition_Time);
-}
-
-.vision_btn:hover {
-    border-color: var(--Orange);
+    transition-property: border-color, background-color;
+    transition-duration: var(--Transition_Time);
 }
 
 .vision_active {
     border-color: var(--Orange);
+    background-color: var(--White);
 }
 
 .vision_main {
