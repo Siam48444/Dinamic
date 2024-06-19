@@ -263,17 +263,17 @@ nav {
     height: 0.15em;
     border-radius: 9em;
     background-color: var(--Black);
-    transform-origin: 50%;
-    transition: translate 1000ms, transform 1000ms;
+    transition-property: translate, transform;
+    transition-duration: var(--Transition_Time);
 }
 
 .line_1_clicked {
     translate: 0 0.225em;
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
 }
 .line_2_clicked {
     translate: 0 -0.225em;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
 }
 
 .menu {
@@ -283,6 +283,12 @@ nav {
     inset: 0;
     transform: translateY(-100%);
     background-color: var(--White);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+
+.menu_openned {
+    transform: translateY(0);
 }
 
 .menu_container {
