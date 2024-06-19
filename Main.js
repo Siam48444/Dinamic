@@ -18,9 +18,11 @@ const hamburger_line = document.querySelectorAll(".hamburger_line");
 const menu = document.querySelector(".menu");
 
 hamburger_btn.addEventListener("click", () => {
+    // Hamburger lines animations.
     hamburger_line[0].classList.toggle("line_1_clicked");
     hamburger_line[1].classList.toggle("line_2_clicked");
-
+    
+    // Menu animations.
     menu.classList.toggle("menu_openned");
 });
 
