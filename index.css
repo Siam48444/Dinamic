@@ -349,12 +349,31 @@ main {
 }
 
 .vision_btn_container {
-    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    padding-block: 4em;
+}
+
+.vision_btn {
+    border: solid 0.01em var(--Light_Gray);
+    background-color: var(--Light_Gray);
+    padding: 0.5em 1em;
+    border-radius: 9em;
+    cursor: pointer;
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 1em;
+    transition: border-color var(--Transition_Time);
+}
+
+.vision_btn:hover {
+    border-color: var(--Orange);
 }
 
 .vision_main {
     position: relative;
-    padding-block: 5em;
 }
 
 .vision {
