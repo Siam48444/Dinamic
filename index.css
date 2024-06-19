@@ -348,6 +348,10 @@ main {
     text-align: center;
 }
 
+.vision_btn_container {
+    background-color: coral;
+}
+
 .vision_main {
     position: relative;
     padding-block: 5em;
