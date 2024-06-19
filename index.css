@@ -481,7 +481,7 @@ main {
     }
 
     .development_right {
-        height: 20em;
+        aspect-ratio: 16 / 10;
     }
 }
 
