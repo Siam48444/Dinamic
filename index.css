@@ -372,7 +372,7 @@ main {
     border-color: var(--Orange);
 }
 
-#vision_active {
+.vision_active {
     border-color: var(--Orange);
 }
 
