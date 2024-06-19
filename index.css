@@ -372,6 +372,10 @@ main {
     border-color: var(--Orange);
 }
 
+#vision_active {
+    border-color: var(--Orange);
+}
+
 .vision_main {
     position: relative;
 }
