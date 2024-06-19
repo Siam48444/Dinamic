@@ -265,6 +265,13 @@ nav {
     background-color: var(--Black);
 }
 
+.line_1_clicked {
+    transform: translateY(0.225em);
+}
+.line_2_clicked {
+    transform: translateY(-0.225em);
+}
+
 .menu {
     position: fixed;
     z-index: 5;
