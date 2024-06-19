@@ -12,6 +12,7 @@ gsap.from(".load_appear", {
 
 // Vision button interactivity.
 const vision_btn = document.querySelectorAll(".vision_btn");
+const vision = document.querySelectorAll(".vision");
 
 vision_btn[0].addEventListener("click", () => {
     vision_btn[0].classList.add("vision_active");

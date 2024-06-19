@@ -388,13 +388,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2em;
+    transform: translateY(2em);
+    opacity: 0;
     transition-property: transform, opacity;
     transition-duration: var(--Transition_Time);
-}
-
-.vision:not(:first-child) {
-    opacity: 0;
-    transform: translateY(2em);
 }
 
 .vision_openned {
