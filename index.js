@@ -19,11 +19,13 @@ vision_btn[0].addEventListener("click", () => {
     vision_btn[1].classList.remove("vision_active");
     vision_btn[2].classList.remove("vision_active");
 });
+
 vision_btn[1].addEventListener("click", () => {
     vision_btn[0].classList.remove("vision_active");
     vision_btn[1].classList.add("vision_active");
     vision_btn[2].classList.remove("vision_active");
 });
+
 vision_btn[2].addEventListener("click", () => {
     vision_btn[0].classList.remove("vision_active");
     vision_btn[1].classList.remove("vision_active");
