@@ -157,7 +157,7 @@ main {
     background-color: var(--Light_Gray);
     border-radius: 1em;
     position: relative;
-    padding-block: 3em;
+    padding-block: 2em;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -174,11 +174,11 @@ main {
 
     &::before {
         inset: 0 auto 0 0;
-        background-image: linear-gradient(90deg, var(--Light_Gray), transparent);
+        background-image: linear-gradient(90deg, var(--White), transparent);
     }
     &::after {
         inset: 0 0 0 auto;
-        background-image: linear-gradient(-90deg, var(--Light_Gray), transparent);
+        background-image: linear-gradient(-90deg, var(--White), transparent);
     }
 }
 
