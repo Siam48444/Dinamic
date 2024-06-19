@@ -160,7 +160,7 @@ nav {
 }
 
 .navigation {
-    width: var(--Main_Width);
+    width: calc(var(--Max_Width) - 6em);
     padding-block: 0.5em;
     margin: auto;
     display: flex;
