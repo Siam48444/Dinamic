@@ -159,6 +159,11 @@ nav {
     inset: 0 0 auto 0;
 }
 
+.navigation_container {
+    width: var(--Max_Width);
+    margin: auto;
+}
+
 .navigation {
     width: var(--Main_Width);
     padding-block: 0.5em;
