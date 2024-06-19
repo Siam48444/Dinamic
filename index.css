@@ -353,7 +353,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
     padding-block: 4em;
 }
 
@@ -604,7 +604,6 @@ main {
     .development_detail p,
     .solution p,
     .vision_left h6,
-    .vision_left .learn_more_link p,
     .vision_left p,
     .vision_btn {
         font-size: 0.9em;
