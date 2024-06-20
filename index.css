@@ -457,9 +457,15 @@ main {
     width: var(--Main_Width);
     margin: auto;
     display: grid;
-    gap: 2em;
+    gap: 1.5em;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+}
+
+.other {
+    background-color: var(--Light_Gray);
+    padding: 1.5em;
+    border-radius: 1em;
 }
 
 .a {
