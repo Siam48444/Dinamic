@@ -559,7 +559,9 @@ main {
         grid-column: span 2;
     }
 
-    .development_container {
+    .development_container,
+    .vision,
+    .others_container {
         grid-template-columns: 1fr;
     }
 
@@ -570,10 +572,6 @@ main {
 
     .development_right {
         aspect-ratio: 16 / 10;
-    }
-
-    .vision {
-        grid-template-columns: 1fr;
     }
 
     .vision_left {
@@ -644,7 +642,8 @@ main {
     }
 
     .solution h4,
-    .partners_title p {
+    .partners_title p,
+    .other h4 {
         font-size: 1em;
     }
 
@@ -661,7 +660,8 @@ main {
     .solution p,
     .vision_left h6,
     .vision_left p,
-    .vision_btn {
+    .vision_btn,
+    .other p {
         font-size: 0.9em;
     }
 }
