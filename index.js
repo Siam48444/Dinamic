@@ -14,20 +14,11 @@ gsap.from(".load_appear", {
 const vision_btn = document.querySelectorAll(".vision_btn");
 const vision = document.querySelectorAll(".vision");
 
-vision_btn[0].addEventListener("click", () => {
-    vision_btn[0].classList.add("vision_active");
-    vision_btn[1].classList.remove("vision_active");
-    vision_btn[2].classList.remove("vision_active");
-});
-
-vision_btn[1].addEventListener("click", () => {
-    vision_btn[0].classList.remove("vision_active");
-    vision_btn[1].classList.add("vision_active");
-    vision_btn[2].classList.remove("vision_active");
-});
-
-vision_btn[2].addEventListener("click", () => {
-    vision_btn[0].classList.remove("vision_active");
-    vision_btn[1].classList.remove("vision_active");
-    vision_btn[2].classList.add("vision_active");
-});
+for (let i = 0; i < vision_btn.length; i++) {
+    vision_btn[i].addEventListener("click", () => {
+        vision_btn.forEach((btn) => {
+            btn.classList.remove("vision_active");
+        });
+        vision_btn[i].classList.add("vision_active");
+    });
+}

@@ -32,7 +32,7 @@ scroll_appear.forEach((appear) => {
     gsap.from(appear, {
         opacity: 0,
         duration: 0.5,
-        y: 50,
+        y: 30,
         scrollTrigger: {
             trigger: appear,
             start: "top 70%",
