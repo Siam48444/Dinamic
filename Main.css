@@ -244,8 +244,8 @@ nav {
 
 .sign_up {
     background-color: var(--Black);
-    color: var(--White);
     border: solid 0.01em var(--Black);
+    color: var(--White);
 }
 
 .sign_up:hover {
