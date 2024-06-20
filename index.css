@@ -394,13 +394,10 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 2em;
     background-color: var(--White);
-    transition: opacity var(--Transition_Time);
     display: none;
-    opacity: 0;
 }
 
 .vision_openned {
-    opacity: 1;
     display: grid;
 }
 
