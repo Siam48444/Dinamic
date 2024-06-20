@@ -389,10 +389,10 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 2em;
     background-color: var(--White);
-    opacity: 0;
-    pointer-events: none;
     transition-property: opacity;
     transition-duration: var(--Transition_Time);
+    opacity: 0;
+    pointer-events: none;
 }
 
 .vision_openned {
