@@ -16,11 +16,13 @@ const vision = document.querySelectorAll(".vision");
 
 for (let i = 0; i < vision_btn.length; i++) {
     vision_btn[i].addEventListener("click", () => {
+        // Buttons clicking.
         vision_btn.forEach((btn) => {
             btn.classList.remove("vision_active");
         });
         vision_btn[i].classList.add("vision_active");
 
+        // Visions changing on clicking the buttons.
         vision.forEach((vsn) => {
             vsn.classList.remove("vision_openned");
         });

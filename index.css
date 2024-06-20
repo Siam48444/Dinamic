@@ -366,19 +366,21 @@ main {
 .vision_btn {
     border: solid 0.01em var(--Light_Gray);
     background-color: var(--Light_Gray);
+    opacity: 0.7;
     padding: 0.5em 1em;
     border-radius: 9em;
     cursor: pointer;
     font-family: var(--Inter);
     font-weight: 400;
     font-size: 1em;
-    transition-property: border-color, background-color;
+    transition-property: border-color, background-color, opacity;
     transition-duration: var(--Transition_Time);
 }
 
 .vision_active {
     border-color: var(--Orange);
     background-color: var(--White);
+    opacity: 1;
 }
 
 .vision_main {
