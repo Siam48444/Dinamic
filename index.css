@@ -448,6 +448,12 @@ main {
     background-size: cover;
 }
 
+.others_section {
+    margin: auto;
+    width: var(--Max_Width);
+    background-color: coral;
+}
+
 .a {
     height: 100vh;
 }
