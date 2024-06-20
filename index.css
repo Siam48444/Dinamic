@@ -535,7 +535,7 @@ main {
 }
 
 .business_middle {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 8;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -545,7 +545,17 @@ main {
 
 .business_bottom {
     padding: 1.5em;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+.business_detail h4 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+    margin-bottom: 0.7em;
 }
 
 .a {
