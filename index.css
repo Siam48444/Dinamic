@@ -302,7 +302,7 @@ main {
 
 .development_detail {
     background-color: var(--Light_Gray);
-    padding: 1.5em;
+    padding: 1em;
     border-radius: 1em;
 }
 
@@ -316,7 +316,7 @@ main {
 
 .development_detail span {
     color: var(--Orange);
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .development_detail p {
