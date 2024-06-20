@@ -397,7 +397,6 @@ main {
     gap: 2em;
     background-color: var(--White);
     display: none;
-    transition: display 1s;
 }
 
 .vision_openned {
