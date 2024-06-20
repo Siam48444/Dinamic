@@ -19,6 +19,11 @@ for (let i = 0; i < vision_btn.length; i++) {
         vision_btn.forEach((btn) => {
             btn.classList.remove("vision_active");
         });
+        vision.forEach((vsn) => {
+            vsn.classList.remove("vision_openned");
+        });
+
         vision_btn[i].classList.add("vision_active");
+        vision[i].classList.add("vision_openned");
     });
 }
