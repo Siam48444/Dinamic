@@ -468,6 +468,27 @@ main {
     border-radius: 1em;
 }
 
+.other h4 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+    margin-bottom: 0.7em;
+}
+
+.other span {
+    color: var(--Orange);
+    font-weight: 500;
+}
+
+.other p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
+    margin-left: 0.7em;
+}
+
 .a {
     height: 100vh;
 }
