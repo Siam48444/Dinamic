@@ -529,13 +529,23 @@ main {
     font-size: 1.1em;
 }
 
+.business_main {
+    border-radius: 1em;
+    background-color: var(--Light_Gray);
+}
+
 .business_middle {
     aspect-ratio: 16 / 9;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1em;
-    margin-block: 3em;
+    margin-block: 3em 1em;
+}
+
+.business_bottom {
+    padding: 1.5em;
+    
 }
 
 .a {
