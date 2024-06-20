@@ -558,6 +558,19 @@ main {
     margin-bottom: 0.7em;
 }
 
+.business_detail span {
+    color: var(--Orange);
+    font-weight: 500;
+}
+
+.business_detail p {
+    font-family: var(--Inter);
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--Gray);
+    margin-left: 0.7em;
+}
+
 .a {
     height: 100vh;
 }
