@@ -514,6 +514,13 @@ main {
     justify-content: space-between;
 }
 
+.business_title h1 {
+    font-family: var(--General_Sans);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
 .a {
     height: 100vh;
 }
