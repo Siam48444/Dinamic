@@ -60,7 +60,7 @@ main {
     margin-top: 5em;
     margin-inline: auto;
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-columns: 0.7fr 1.7fr 1fr;
     background-color: var(--Light_Gray);
     border-radius: 1em;
     position: relative;
@@ -551,8 +551,10 @@ main {
         border: none;
     }
 
-    .hero_bottom_video {
-        height: 15em;
+    .hero_bottom_video,
+    .development_right,
+    .vision_right {
+        aspect-ratio: 16 / 9;
     }
 
     .saas_solution_container {
@@ -574,10 +576,6 @@ main {
         gap: 1.5em;
     }
 
-    .development_right {
-        aspect-ratio: 16 / 10;
-    }
-
     .vision_left {
         gap: 0.5em;
     }
@@ -591,15 +589,11 @@ main {
     .vision_left p {
         font-size: 1em;
     }
-
-    .vision_right {
-        aspect-ratio: 16 / 10;
-    }
 }
 
 @media (width < 500px) {
     .hero_head {
-        width: 95%;
+        width: var(--Main_Width);
     }
 
     .hero_head h1 {
