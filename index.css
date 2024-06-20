@@ -529,6 +529,15 @@ main {
     font-size: 1.1em;
 }
 
+.business_middle {
+    aspect-ratio: 16 / 9;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1em;
+    margin-block: 3em;
+}
+
 .a {
     height: 100vh;
 }
