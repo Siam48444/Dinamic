@@ -593,7 +593,8 @@ main {
     }
 
     .potential_title h1,
-    .vision_title h1 {
+    .vision_title h1,
+    .business_title h1 {
         font-size: 3em;
     }
 
@@ -705,7 +706,8 @@ main {
     }
 
     .potential_title h1,
-    .vision_title h1 {
+    .vision_title h1,
+    .business_title h1 {
         font-size: 2em;
     }
 
