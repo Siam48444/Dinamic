@@ -451,7 +451,15 @@ main {
 .others_section {
     margin: auto;
     width: var(--Max_Width);
-    background-color: coral;
+}
+
+.others_container {
+    width: var(--Main_Width);
+    margin: auto;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
 }
 
 .a {
