@@ -225,15 +225,16 @@ nav {
 }
 
 .nav_btn {
+    font-family: var(--General_Sans);
+    font-weight: 500;
+    font-size: 1em;
     padding: 0.6em 1em;
     border-radius: 9em;
-    transition-property: background-color, color;
+    transition-property: background-color, color, border-color;
     transition-duration: var(--Transition_Time);
 }
 
 .log_in {
-    font-family: var(--General_Sans);
-    font-weight: 500;
     color: var(--Black);
 }
 
@@ -243,14 +244,14 @@ nav {
 
 .sign_up {
     background-color: var(--Black);
-    font-family: var(--General_Sans);
-    font-weight: 500;
     color: var(--White);
+    border: solid 0.01em var(--Black);
 }
 
 .sign_up:hover {
-    background-color: var(--Orange);
-    color: var(--White);
+    background-color: var(--White);
+    color: var(--Black);
+    border-color: var(--Black);
 }
 
 .hamburger_btn {
