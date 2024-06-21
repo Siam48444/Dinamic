@@ -220,7 +220,7 @@ main {
     margin: auto;
     width: var(--Main_Width);
     position: relative;
-    padding-block: 5em;
+    padding-block: 8em;
 }
 
 .potential_title {
@@ -291,7 +291,7 @@ main {
     width: var(--Main_Width);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-block: 3em;
+    padding-block: 5em;
     gap: 3em;
 }
 
@@ -369,7 +369,7 @@ main {
 .vision_btn {
     border: solid 0.01em var(--Light_Gray);
     background-color: var(--Light_Gray);
-    opacity: 0.7;
+    opacity: 0.6;
     padding: 0.5em 1em;
     border-radius: 9em;
     cursor: pointer;
@@ -546,7 +546,7 @@ main {
 .business_bottom {
     padding: 1.5em;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2em;
 }
 
@@ -636,17 +636,14 @@ main {
         aspect-ratio: 16 / 9;
     }
 
-    .saas_solution_container {
-        grid-template-columns: 1fr;
-    }
-
     .solution {
         grid-column: span 2;
     }
 
     .development_container,
     .vision,
-    .others_container {
+    .others_container,
+    .saas_solution_container {
         grid-template-columns: 1fr;
     }
 
@@ -668,6 +665,10 @@ main {
     .vision_left p {
         font-size: 1em;
     }
+
+    .business_bottom {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (width < 500px) {
@@ -678,6 +679,7 @@ main {
     .hero_head h1 {
         font-size: 2.5em;
     }
+
     .hero_head h6,
     .hero_btn {
         font-size: 1em;
@@ -721,7 +723,9 @@ main {
 
     .solution h4,
     .partners_title p,
-    .other h4 {
+    .development_detail h3,
+    .other h4,
+    .business_detail h4 {
         font-size: 1em;
     }
 
@@ -739,7 +743,8 @@ main {
     .vision_left h6,
     .vision_left p,
     .vision_btn,
-    .other p {
+    .other p,
+    .business_detail p {
         font-size: 0.9em;
     }
 }

@@ -210,13 +210,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.1em;
+    padding: 0.2em;
+    border: none;
+    background-color: transparent;
     cursor: pointer;
 }
 
 .cart_div svg {
     fill: var(--Black);
-    height: 1.5em;
+    height: 1.6em;
     transition: rotate var(--Transition_Time);
 }
 
@@ -263,7 +265,7 @@ nav {
     gap: 0.3em;
     padding: 0.5em 0.3em;
     border: none;
-    background-color: var(--White);
+    background-color: transparent;
 }
 
 .hamburger_line {
