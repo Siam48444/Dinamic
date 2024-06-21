@@ -29,7 +29,6 @@ hamburger_btn.addEventListener("click", () => {
 // Cart button interactivity.
 const cart_btn = document.querySelector(".cart_div");
 const cart_section = document.querySelector(".cart_section");
-const cart_box = document.querySelector(".cart_box");
 const cart_close_btn = document.querySelector(".cart_close_btn");
 
 cart_btn.addEventListener("click", () => {
@@ -38,6 +37,12 @@ cart_btn.addEventListener("click", () => {
 
 cart_close_btn.addEventListener("click", () => {
     cart_section.classList.remove("cart_open");
+});
+
+cart_section.addEventListener("click", (e) => {
+    if (e.target == cart_section) {
+        cart_section.classList.remove("cart_open");
+    }
 });
 
 // Appearing on scroll animation.

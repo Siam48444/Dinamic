@@ -532,7 +532,7 @@ main {
 }
 
 .business_middle {
-    aspect-ratio: 16 / 8;
+    aspect-ratio: 16 / 9;
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -641,7 +641,7 @@ main {
     background-size: cover;
     background-position: center bottom;
     padding-block: 5em;
-    aspect-ratio: 16 / 8;
+    aspect-ratio: 16 / 9;
     border-radius: 1em;
 }
 
@@ -726,7 +726,7 @@ main {
     .hero_bottom_middle,
     .development_right,
     .vision_right {
-        aspect-ratio: 16 / 8;
+        aspect-ratio: 16 / 9;
     }
 
     .solution {

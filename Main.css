@@ -279,7 +279,8 @@ nav {
 
 .cart_close_btn svg {
     cursor: pointer;
-    height: 1.8em;
+    height: 2em;
+    fill: var(--Black);
 }
 
 .cart_info {
