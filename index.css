@@ -224,6 +224,7 @@ main {
 .potential_title h1 {
     font-family: var(--General_Sans);
     font-size: 4em;
+    color: var(--Black);
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
@@ -349,6 +350,7 @@ main {
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
+    color: var(--Black);
 }
 
 .vision_btn_container {
@@ -513,6 +515,7 @@ main {
     font-size: 4em;
     font-weight: 600;
     line-height: 1.2;
+    color: var(--Black);
 }
 
 .business_btn {
@@ -583,6 +586,7 @@ main {
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
+    color: var(--Black);
 }
 
 .review_container {
@@ -632,13 +636,22 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 1.5em;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     padding-block: 3em;
     aspect-ratio: 16 / 8;
     border-radius: 1em;
+}
+
+.get_started_container h1 {
+    font-family: var(--General_Sans);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--White);
+    text-align: center;
 }
 
 .a {
