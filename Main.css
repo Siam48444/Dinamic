@@ -252,7 +252,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5em;
-    border-bottom: solid 0.01em var(--Light_Gray);
+    border-bottom: solid 0.01em rgb(200, 200, 200);
 }
 
 .cart_title h6 {
@@ -272,6 +272,20 @@ nav {
 .cart_close_btn svg {
     cursor: pointer;
     height: 1.8em;
+}
+
+.cart_info {
+    padding: 1.5em;
+    display: grid;
+    place-items: center;
+    height: 10em;
+}
+
+.cart_info p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--Black);
 }
 
 .nav_btn {
