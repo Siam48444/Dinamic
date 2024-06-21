@@ -619,6 +619,28 @@ main {
     color: var(--Black);
 }
 
+.get_started_section {
+    position: relative;
+    margin: auto;
+    width: var(--Max_Width);
+}
+
+.get_started_container {
+    width: var(--Main_Width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 3em;
+    aspect-ratio: 16 / 8;
+    border-radius: 1em;
+}
+
 .a {
     height: 100vh;
 }
