@@ -21,10 +21,16 @@ hamburger_btn.addEventListener("click", () => {
     // Hamburger lines animations.
     hamburger_line[0].classList.toggle("line_1_clicked");
     hamburger_line[1].classList.toggle("line_2_clicked");
-    
+
     // Menu animations.
     menu.classList.toggle("menu_openned");
 });
+
+// Cart button interactivity.
+const cart_btn = document.querySelector(".cart_div");
+const cart_section = document.querySelector(".cart_section");
+
+cart_btn.addEventListener
 
 // Appearing on scroll animation.
 const scroll_appear = document.querySelectorAll(".scroll_appear");
