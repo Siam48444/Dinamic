@@ -671,6 +671,7 @@ main {
 .faq_container {
     width: var(--Main_Width);
     margin: auto;
+    padding-block: 5em;
 }
 
 .faq_title h1 {
@@ -678,7 +679,7 @@ main {
     font-size: 4em;
     font-weight: 600;
     line-height: 1.2;
-    color: var(--White);
+    color: var(--Black);
     text-align: center;
 }
 
