@@ -135,7 +135,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    outline: solid 0.12em var(--Orange);
+    outline: solid 0.1em var(--Orange);
 }
 
 .user_detail h5 {
