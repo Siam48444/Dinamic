@@ -640,7 +640,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    padding-block: 3em;
+    padding-block: 5em;
     aspect-ratio: 16 / 8;
     border-radius: 1em;
 }
@@ -652,6 +652,14 @@ main {
     line-height: 1.2;
     color: var(--White);
     text-align: center;
+}
+
+.get_started_container a {
+    padding: 0.8em 1.2em;
+    border-radius: 9em;
+    font-family: var(--Inter);
+    font-weight: 500;
+    font-size: 1.1em;
 }
 
 .a {
