@@ -687,6 +687,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-block: 3em;
+    gap: 1.5em;
 }
 
 .faq_left {
@@ -708,6 +709,26 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1em;
+}
+
+.question_main h5 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+} 
+
+.question_main svg {
+    height: 1.5em;
+    fill: var(--Black);
+}
+
+.answer {
+    display: grid;
+    grid-template-rows: 0;
+    overflow: hidden;
+    transition: grid-template-rows var(--Transition_Time);
 }
 
 .a {
