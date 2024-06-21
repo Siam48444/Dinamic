@@ -29,8 +29,12 @@ hamburger_btn.addEventListener("click", () => {
 // Cart button interactivity.
 const cart_btn = document.querySelector(".cart_div");
 const cart_section = document.querySelector(".cart_section");
+const cart_box = document.querySelector(".cart_box");
 
-cart_btn.addEventListener
+cart_btn.addEventListener("click", () => {
+    cart_section.classList.add("cart_open");
+    gsap.from(cart_box, { opacity: 0, delay: "0.15", duration: "0.2", scale: 0.95 });
+});
 
 // Appearing on scroll animation.
 const scroll_appear = document.querySelectorAll(".scroll_appear");
