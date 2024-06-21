@@ -29,3 +29,13 @@ for (let i = 0; i < vision_btn.length; i++) {
         vision[i].classList.add("vision_openned");
     });
 }
+
+// FAQ interactivity.
+const question = document.querySelectorAll(".question");
+const answer = document.querySelectorAll(".answer");
+
+for (let x = 0; x < question.length; x++) {
+    question[x].addEventListener("click", () => {
+        answer[x].classList.toggle("answer_open");
+    });
+}

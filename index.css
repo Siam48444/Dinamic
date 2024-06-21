@@ -722,18 +722,24 @@ main {
 .question_main svg {
     height: 1.5em;
     fill: var(--Black);
+    transition: rotate var(--Transition_Time);
+}
+
+.question_svg_rotated {
+    rotate: 180deg;
 }
 
 .answer {
     display: grid;
     grid-template-rows: 0;
+    padding-top: 0;
     overflow: hidden;
-    transition: grid-template-rows var(--Transition_Time), padding-block var(--Transition_Time);
+    transition: grid-template-rows var(--Transition_Time), padding-top var(--Transition_Time);
 }
 
 .answer_open {
     grid-template-rows: 1fr;
-    padding-block: 1em;
+    padding-top: 1em;
 }
 
 .answer p {
