@@ -588,8 +588,8 @@ main {
 .review_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-block: 3em;
-    gap: 2em;
+    padding-block: 2em;
+    gap: 1.5em;
 }
 
 .review {
@@ -599,7 +599,7 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 2em;
+    gap: 1.5em;
     padding: 1.5em;
 }
 
@@ -642,7 +642,8 @@ main {
 
     .potential_title h1,
     .vision_title h1,
-    .business_title h1 {
+    .business_title h1,
+    .clients_title h1 {
         font-size: 3em;
     }
 
@@ -691,7 +692,8 @@ main {
     .development_container,
     .vision,
     .others_container,
-    .saas_solution_container {
+    .saas_solution_container,
+    .business_bottom {
         grid-template-columns: 1fr;
     }
 
@@ -714,7 +716,13 @@ main {
         font-size: 1em;
     }
 
-    .business_bottom {
+    .review_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (width < 600px) {
+    .review_container {
         grid-template-columns: 1fr;
     }
 }
@@ -757,7 +765,8 @@ main {
 
     .potential_title h1,
     .vision_title h1,
-    .business_title h1 {
+    .business_title h1,
+    .clients_title h1 {
         font-size: 2em;
     }
 
