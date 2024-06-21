@@ -635,7 +635,7 @@ main {
     gap: 1em;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     padding-block: 3em;
     aspect-ratio: 16 / 8;
     border-radius: 1em;
