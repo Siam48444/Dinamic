@@ -226,6 +226,13 @@ nav {
     rotate: -10deg;
 }
 
+.cart_section {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+}
+
 .nav_btn {
     font-family: var(--General_Sans);
     font-weight: 500;
