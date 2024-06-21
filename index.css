@@ -730,17 +730,13 @@ main {
 }
 
 .answer {
-    display: grid;
-    grid-template-rows: 0;
+    overflow: hidden;
+    height: 0;
 }
 
 .answer_open {
-    grid-template-rows: 1fr;
+    height: fit-content;
     padding-top: 1em;
-}
-
-.answer > div {
-    overflow: hidden;
 }
 
 .answer p {
@@ -937,7 +933,8 @@ main {
     .partners_title p,
     .development_detail h3,
     .other h4,
-    .business_detail h4,.question_main h5 {
+    .business_detail h4,
+    .question_main h5 {
         font-size: 1em;
     }
 
@@ -956,7 +953,8 @@ main {
     .vision_left p,
     .vision_btn,
     .other p,
-    .business_detail p,.answer div p {
+    .business_detail p,
+    .answer div p {
         font-size: 0.9em;
     }
 }
