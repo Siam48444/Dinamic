@@ -135,7 +135,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    outline: solid 0.15em var(--Orange);
+    outline: solid 0.12em var(--Orange);
 }
 
 .user_detail h5 {
@@ -329,10 +329,6 @@ nav {
 }
 
 @media (width < 1000px) {
-    .user_image {
-        height: 2.7em;
-    }
-
     .navigation {
         padding-block: 1em;
     }
