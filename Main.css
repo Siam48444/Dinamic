@@ -236,6 +236,44 @@ nav {
     place-items: center;
 }
 
+.cart_box {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    width: 30em;
+}
+
+.cart_title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    border-bottom: solid 0.01em var(--Light_Gray);
+}
+
+.cart_title h6 {
+    font-family: var(--Inter);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+}
+
+.cart_close_btn {
+    display: grid;
+    place-items: center;
+    border: none;
+    background-color: transparent;
+}
+
+.cart_close_btn svg {
+    cursor: pointer;
+    height: 1.8em;
+}
+
 .nav_btn {
     font-family: var(--General_Sans);
     font-weight: 500;
