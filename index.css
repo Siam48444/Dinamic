@@ -604,7 +604,7 @@ main {
     align-items: start;
     justify-content: center;
     gap: 1.5em;
-    padding: 1.5em;
+    padding: 1.3em;
 }
 
 .review_logo {
@@ -686,7 +686,8 @@ main {
     .potential_title h1,
     .vision_title h1,
     .business_title h1,
-    .clients_title h1 {
+    .clients_title h1,
+    .get_started_container h1 {
         font-size: 3em;
     }
 
@@ -762,6 +763,12 @@ main {
     .review_container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .business_title {
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5em;
+    }
 }
 
 @media (width < 600px) {
@@ -780,7 +787,9 @@ main {
     }
 
     .hero_head h6,
-    .hero_btn {
+    .hero_btn,
+    .business_btn,
+    .get_started_container a {
         font-size: 1em;
     }
 
@@ -809,7 +818,8 @@ main {
     .potential_title h1,
     .vision_title h1,
     .business_title h1,
-    .clients_title h1 {
+    .clients_title h1,
+    .get_started_container h1 {
         font-size: 2em;
     }
 
