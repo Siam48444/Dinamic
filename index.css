@@ -717,7 +717,7 @@ main {
     font-weight: 600;
     font-size: 1.1em;
     color: var(--Black);
-} 
+}
 
 .question_main svg {
     height: 1.5em;
@@ -729,6 +729,13 @@ main {
     grid-template-rows: 0;
     overflow: hidden;
     transition: grid-template-rows var(--Transition_Time);
+}
+
+.faq_right {
+    border-radius: 1em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .a {
