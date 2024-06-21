@@ -662,6 +662,26 @@ main {
     font-size: 1.1em;
 }
 
+.faq_section {
+    position: relative;
+    width: var(--Max_Width);
+    margin: auto;
+}
+
+.faq_container {
+    width: var(--Main_Width);
+    margin: auto;
+}
+
+.faq_title h1 {
+    font-family: var(--General_Sans);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--White);
+    text-align: center;
+}
+
 .a {
     height: 100vh;
 }
