@@ -228,10 +228,10 @@ nav {
 
 .cart_section {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     inset: 0;
-    z-index: 7;
+    z-index: 99;
     display: grid;
     place-items: center;
 }
@@ -278,7 +278,7 @@ nav {
     padding: 1.5em;
     display: grid;
     place-items: center;
-    height: 10em;
+    height: 12em;
 }
 
 .cart_info p {
