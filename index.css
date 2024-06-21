@@ -312,7 +312,7 @@ main {
 }
 
 .development_detail span {
-    color: var(--Orange);
+    color: var(--Primary);
     font-weight: 500;
 }
 
@@ -375,7 +375,7 @@ main {
 }
 
 .vision_active {
-    border-color: var(--Orange);
+    border-color: var(--Primary);
     background-color: var(--White);
     opacity: 1;
 }
@@ -432,7 +432,7 @@ main {
 }
 
 .vision_left span {
-    color: var(--Orange);
+    color: var(--Primary);
     font-weight: 500;
 }
 
@@ -478,7 +478,7 @@ main {
 }
 
 .other span {
-    color: var(--Orange);
+    color: var(--Primary);
     font-weight: 500;
 }
 
@@ -553,7 +553,7 @@ main {
 }
 
 .business_detail span {
-    color: var(--Orange);
+    color: var(--Primary);
     font-weight: 500;
 }
 

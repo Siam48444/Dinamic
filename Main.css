@@ -53,13 +53,13 @@ html {
 
 :root {
     /* Colors */
-    --Orange: #fa792f;
-    --Black: #111111;
-    --White: #f8f8f8;
-    --Gray: #6d6d6d;
-    --Light_Gray: #f0f0f0;
-    --Blue: #594afd;
-    --Green: #0b9965;
+    --Primary: rgb(247, 106, 26);
+    --Black: rgb(17, 17, 17);
+    --White: rgb(248, 248, 248);
+    --Gray: rgb(109, 109, 109);
+    --Light_Gray: rgb(240, 240, 240);
+    --Blue: rgb(79, 59, 255);
+    --Green: rgb(11, 153, 101);
 
     /* Fonts */
     --General_Sans: General_Sans, Arial, Helvetica, sans-serif;
@@ -76,7 +76,7 @@ html {
 }
 
 .orange_text {
-    color: var(--Orange);
+    color: var(--Primary);
 }
 
 .gray_text {
@@ -84,8 +84,8 @@ html {
 }
 
 .orange_btn {
-    background-color: var(--Orange);
-    border: solid 0.01em var(--Orange);
+    background-color: var(--Primary);
+    border: solid 0.01em var(--Primary);
     color: var(--White);
     font-family: var(--Inter);
     transition-property: background-color, color;
@@ -135,7 +135,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    outline: solid 0.1em var(--Orange);
+    outline: solid 0.1em var(--Primary);
 }
 
 .user_detail h5 {
@@ -203,7 +203,7 @@ nav {
 
 .nav_link:hover:not(#link_active),
 .menu_container a:hover:not(#link_active) {
-    color: var(--Orange);
+    color: var(--Primary);
 }
 
 .cart_div {
