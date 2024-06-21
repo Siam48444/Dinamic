@@ -633,7 +633,7 @@ main {
     .hero_bottom_middle,
     .development_right,
     .vision_right {
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 16 / 8;
     }
 
     .solution {
