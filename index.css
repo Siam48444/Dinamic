@@ -732,11 +732,11 @@ main {
 .answer {
     display: grid;
     grid-template-rows: 0;
-    transition: grid-template-rows var(--Transition_Time);
 }
 
 .answer_open {
     grid-template-rows: 1fr;
+    padding-top: 1em;
 }
 
 .answer > div {
