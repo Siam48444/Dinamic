@@ -585,6 +585,17 @@ main {
     text-align: center;
 }
 
+.review_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 3em;
+}
+
+.review {
+    background-color: var(--Light_Gray);
+    border-radius: 1em;
+}
+
 .a {
     height: 100vh;
 }
