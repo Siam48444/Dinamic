@@ -671,7 +671,7 @@ main {
 .faq_container {
     width: var(--Main_Width);
     margin: auto;
-    padding-block: 5em;
+    padding-block: 5em 10em;
 }
 
 .faq_title h1 {
@@ -728,7 +728,19 @@ main {
     display: grid;
     grid-template-rows: 0;
     overflow: hidden;
-    transition: grid-template-rows var(--Transition_Time);
+    transition: grid-template-rows var(--Transition_Time), padding-block var(--Transition_Time);
+}
+
+.answer_open {
+    grid-template-rows: 1fr;
+    padding-block: 1em;
+}
+
+.answer p {
+    font-family: var(--Inter);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Black);
 }
 
 .faq_right {
