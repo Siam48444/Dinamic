@@ -30,10 +30,16 @@ hamburger_btn.addEventListener("click", () => {
 const cart_btn = document.querySelector(".cart_div");
 const cart_section = document.querySelector(".cart_section");
 const cart_box = document.querySelector(".cart_box");
+const cart_close_btn = document.querySelector(".cart_close_btn");
 
 cart_btn.addEventListener("click", () => {
     cart_section.classList.add("cart_open");
     gsap.from(cart_box, { opacity: 0, delay: "0.15", duration: "0.2", scale: 0.95 });
+});
+
+cart_close_btn.addEventListener("click", () => {
+    gsap.to(cart_box, { opacity: 0, duration: "0.2", scale: 0.95 });
+    cart_section.classList.remove("cart_open");
 });
 
 // Appearing on scroll animation.
