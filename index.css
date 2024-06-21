@@ -571,6 +571,26 @@ main {
     margin-left: 0.7em;
 }
 
+.clients_section {
+    width: var(--Max_Width);
+    margin: auto;
+    position: relative;
+}
+
+.clients_container {
+    width: var(--Main_Width);
+    margin: auto;
+    padding-block: 5em;
+}
+
+.clients_title h1 {
+    font-family: var(--General_Sans);
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
 .a {
     height: 100vh;
 }
