@@ -32,10 +32,12 @@ for (let i = 0; i < vision_btn.length; i++) {
 
 // FAQ interactivity.
 const question = document.querySelectorAll(".question");
+const question_svg = document.querySelectorAll(".question_main svg");
 const answer = document.querySelectorAll(".answer");
 
 for (let x = 0; x < question.length; x++) {
     question[x].addEventListener("click", () => {
+        question_svg[x].classList.toggle("question_svg_rotated");
         answer[x].classList.toggle("answer_open");
     });
 }

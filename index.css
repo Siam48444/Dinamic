@@ -730,10 +730,9 @@ main {
 }
 
 .answer {
+    overflow: hidden;
     display: grid;
     grid-template-rows: 0;
-    padding-top: 0;
-    overflow: hidden;
     transition: grid-template-rows var(--Transition_Time), padding-top var(--Transition_Time);
 }
 
